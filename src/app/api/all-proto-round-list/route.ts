@@ -18,6 +18,7 @@ export async function GET(request: Request) {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*",
         },
         data: requestBody,
       }
